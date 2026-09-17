@@ -36,7 +36,7 @@ ENV VCS_REF=$VCS_REF
 
 # nginx
 # https://github.com/nginx/nginx/releases
-ARG VER_NGINX=1.30.2
+ARG VER_NGINX=1.30.5
 ENV VER_NGINX=$VER_NGINX
 
 # NGINX MODULES
@@ -176,7 +176,7 @@ ENV VER_LUA_UPSTREAM=$VER_LUA_UPSTREAM
 
 # nginx-lua-prometheus
 # https://github.com/knyar/nginx-lua-prometheus
-ARG VER_PROMETHEUS=0.20240525
+ARG VER_PROMETHEUS=0.20260912
 ENV VER_PROMETHEUS=$VER_PROMETHEUS
 
 # set-misc-nginx-module
@@ -190,7 +190,7 @@ ENV VER_NGX_ACME=$VER_NGX_ACME
 
 # stream-lua-nginx-module
 # https://github.com/openresty/stream-lua-nginx-module
-ARG VER_OPENRESTY_STREAMLUA=0.0.20rc2
+ARG VER_OPENRESTY_STREAMLUA=0.0.20rc3
 ENV VER_OPENRESTY_STREAMLUA=$VER_OPENRESTY_STREAMLUA
 
 # lua-resty-limit-traffic
